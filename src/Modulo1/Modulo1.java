@@ -1,4 +1,6 @@
-public class Main {
+package Modulo1;
+
+public class Modulo1 {
     public static void main(String[] args) {
 
         //Testes
@@ -57,7 +59,7 @@ public class Main {
         } else if (categoria == Categoria.H) {
             categoriaDescricao = "História";
         } else {
-            categoriaDescricao = "Categoria inválida";
+            categoriaDescricao = "Modulo1.Categoria inválida";
         }
 
         System.out.println("Livro cadastrado: \"" + titulo + "\", de " + autor + ". Ele possui " + paginas + " páginas, custa R$" + preco + " e pertence à categoria " + categoriaDescricao + ".");
